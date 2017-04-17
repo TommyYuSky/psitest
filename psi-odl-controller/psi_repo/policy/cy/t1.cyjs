@@ -1,0 +1,43 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.1.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "selected" : true,
+    "__Annotations" : [ "" ],
+    "shared_name" : "Network",
+    "SUID" : 52,
+    "name" : "Devices"
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "585",
+        "ip_address" : "10.6.0.1",
+        "SUID" : 585,
+        "selected" : false,
+        "name" : "h6",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "583",
+        "ip_address" : "10.2.0.1",
+        "SUID" : 583,
+        "selected" : false,
+        "name" : "h2",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "62",
+        "ip_address" : "10.1.0.1",
+        "SUID" : 62,
+        "selected" : false,
+        "name" : "h1",
+        "shared_name" : "Device"
+      }
+    } ],
+    "edges" : [ ]
+  }
+}

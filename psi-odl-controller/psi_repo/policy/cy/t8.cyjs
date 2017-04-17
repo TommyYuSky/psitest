@@ -1,0 +1,342 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.1.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "selected" : true,
+    "__Annotations" : [ "" ],
+    "shared_name" : "Network",
+    "SUID" : 537,
+    "name" : "PolicySet"
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "560",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 560,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "DAG1",
+        "state_to_event" : "",
+        "NumChildren" : 3,
+        "NumDescendents" : 3,
+        "shared_name" : "DAG1"
+      }
+    }, {
+      "data" : {
+        "id" : "571",
+        "state_to_context" : "count normal",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "counter",
+        "SUID" : 571,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "csd",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "NF",
+        "state_to_event" : "",
+        "shared_name" : "NF"
+      }
+    }, {
+      "data" : {
+        "id" : "572",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "h2",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 572,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Scope",
+        "state_to_event" : "",
+        "shared_name" : "Scope"
+      }
+    }, {
+      "data" : {
+        "id" : "573",
+        "state_to_context" : "",
+        "ip_address" : "10.1.0.1",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 573,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Device",
+        "state_to_event" : "",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "595",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 595,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "no-alert",
+        "state_to_event" : "",
+        "shared_name" : "Event"
+      }
+    }, {
+      "data" : {
+        "id" : "594",
+        "state_to_context" : "count normal",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "counter",
+        "SUID" : 594,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "csd",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "csd:counter",
+        "state_to_event" : "",
+        "shared_name" : "NF"
+      }
+    }, {
+      "data" : {
+        "id" : "593",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 593,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : true,
+        "name" : "subject1",
+        "state_to_event" : "",
+        "shared_name" : "Subject"
+      }
+    }, {
+      "data" : {
+        "id" : "592",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 592,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : true,
+        "name" : "fsm1",
+        "state_to_event" : "",
+        "shared_name" : "FSM"
+      }
+    }, {
+      "data" : {
+        "id" : "591",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 591,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : true,
+        "name" : "DAGSet1",
+        "state_to_event" : "",
+        "shared_name" : "DAGSet"
+      }
+    }, {
+      "data" : {
+        "id" : "590",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "dag1",
+        "nf_type" : "",
+        "SUID" : 590,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "normal",
+        "state_to_event" : "",
+        "shared_name" : "State"
+      }
+    }, {
+      "data" : {
+        "id" : "587",
+        "state_to_context" : "",
+        "ip_address" : "10.2.0.1",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 587,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Device",
+        "state_to_event" : "",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "588",
+        "state_to_context" : "",
+        "ip_address" : "10.6.0.1",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 588,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Device",
+        "state_to_event" : "",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "589",
+        "state_to_context" : "",
+        "ip_address" : "10.1.0.1",
+        "port" : "",
+        "device_list" : "",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 589,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Device",
+        "state_to_event" : "",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "558",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "h2",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 558,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Scope",
+        "state_to_event" : "",
+        "shared_name" : "Scope"
+      }
+    }, {
+      "data" : {
+        "id" : "559",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "port" : "",
+        "device_list" : "h1 h6",
+        "DAG" : "",
+        "nf_type" : "",
+        "SUID" : 559,
+        "mac_address" : "",
+        "proto" : "",
+        "nf_scope" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Scope",
+        "state_to_event" : "",
+        "shared_name" : "Scope"
+      }
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "574",
+        "source" : "571",
+        "target" : "572",
+        "selected" : false,
+        "SUID" : 574,
+        "name" : "NF (interaction) Scope",
+        "context" : "normal",
+        "interaction" : "interaction",
+        "shared_name" : "NF (interaction) Scope",
+        "shared_interaction" : "interaction"
+      }
+    }, {
+      "data" : {
+        "id" : "575",
+        "source" : "573",
+        "target" : "571",
+        "selected" : false,
+        "SUID" : 575,
+        "name" : "Device (interaction) NF",
+        "context" : "",
+        "interaction" : "interaction",
+        "shared_name" : "Device (interaction) NF",
+        "shared_interaction" : "interaction"
+      }
+    }, {
+      "data" : {
+        "id" : "596",
+        "source" : "590",
+        "target" : "590",
+        "selected" : false,
+        "SUID" : 596,
+        "name" : "no-alert",
+        "context" : "",
+        "interaction" : "interaction",
+        "shared_name" : "State (interaction) State",
+        "shared_interaction" : "interaction"
+      }
+    } ]
+  }
+}

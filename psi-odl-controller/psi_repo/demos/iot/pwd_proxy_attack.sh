@@ -1,0 +1,1 @@
+curl --connect-timeout 5 -s -X PUT http://10.2.0.1:8000/api/newdeveloper/groups/0/action -d {\"on\":false}

@@ -1,0 +1,57 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.1.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "selected" : true,
+    "shared_name" : "Network",
+    "SUID" : 565,
+    "name" : "Policy1"
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "581",
+        "SUID" : 581,
+        "selected" : true,
+        "has_nested_network" : true,
+        "name" : "DAGSet1",
+        "shared_name" : "DAGSet"
+      },
+      "position" : {
+        "x" : 112.95016479492188,
+        "y" : -42.93146514892578
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "579",
+        "SUID" : 579,
+        "selected" : true,
+        "has_nested_network" : true,
+        "name" : "fsm1",
+        "shared_name" : "FSM"
+      },
+      "position" : {
+        "x" : -8.006229400634766,
+        "y" : -48.50311279296875
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "577",
+        "SUID" : 577,
+        "selected" : true,
+        "has_nested_network" : true,
+        "name" : "subject1",
+        "shared_name" : "Subject"
+      },
+      "position" : {
+        "x" : -128.0,
+        "y" : -45.0
+      },
+      "selected" : true
+    } ],
+    "edges" : [ ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.1.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "selected" : true,
+    "shared_name" : "Network",
+    "SUID" : 841,
+    "name" : "PolicySet"
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "931",
+        "SUID" : 931,
+        "selected" : false,
+        "name" : "DAG1",
+        "NumChildren" : 3,
+        "NumDescendents" : 3,
+        "shared_name" : "DAG1"
+      }
+    }, {
+      "data" : {
+        "id" : "859",
+        "device_list" : "h1 h6",
+        "SUID" : 859,
+        "selected" : false,
+        "name" : "Scope",
+        "shared_name" : "Scope"
+      }
+    }, {
+      "data" : {
+        "id" : "860",
+        "device_list" : "h2",
+        "SUID" : 860,
+        "selected" : false,
+        "name" : "Scope",
+        "shared_name" : "Scope"
+      }
+    }, {
+      "data" : {
+        "id" : "904",
+        "ip_address" : "10.1.0.1",
+        "SUID" : 904,
+        "selected" : false,
+        "name" : "Device",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "903",
+        "ip_address" : "10.6.0.1",
+        "SUID" : 903,
+        "selected" : false,
+        "name" : "Device",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "902",
+        "ip_address" : "10.2.0.1",
+        "SUID" : 902,
+        "selected" : false,
+        "name" : "Device",
+        "shared_name" : "Device"
+      }
+    }, {
+      "data" : {
+        "id" : "873",
+        "DAG" : "dag1",
+        "SUID" : 873,
+        "selected" : false,
+        "name" : "normal",
+        "shared_name" : "State"
+      }
+    }, {
+      "data" : {
+        "id" : "869",
+        "SUID" : 869,
+        "selected" : false,
+        "has_nested_network" : true,
+        "name" : "DAGSet1",
+        "shared_name" : "DAGSet"
+      }
+    }, {
+      "data" : {
+        "id" : "868",
+        "SUID" : 868,
+        "selected" : false,
+        "has_nested_network" : true,
+        "name" : "fsm1",
+        "shared_name" : "FSM"
+      }
+    }, {
+      "data" : {
+        "id" : "867",
+        "SUID" : 867,
+        "selected" : false,
+        "has_nested_network" : true,
+        "name" : "subject1",
+        "shared_name" : "Subject"
+      }
+    }, {
+      "data" : {
+        "id" : "865",
+        "state_to_context" : "count normal",
+        "nf_type" : "counter",
+        "SUID" : 865,
+        "nf_scope" : "csd",
+        "selected" : false,
+        "name" : "csd:counter",
+        "shared_name" : "NF"
+      }
+    }, {
+      "data" : {
+        "id" : "863",
+        "SUID" : 863,
+        "selected" : false,
+        "name" : "no-alert",
+        "shared_name" : "Event"
+      }
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "874",
+        "source" : "873",
+        "target" : "873",
+        "selected" : false,
+        "SUID" : 874,
+        "name" : "no-alert",
+        "interaction" : "interaction",
+        "shared_name" : "State (interaction) State",
+        "shared_interaction" : "interaction"
+      }
+    } ]
+  }
+}

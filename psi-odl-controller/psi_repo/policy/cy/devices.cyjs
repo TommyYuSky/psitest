@@ -1,0 +1,88 @@
+{
+    "nodes" : [ {
+      "data" : {
+        "id" : "65",
+        "state_to_context" : "",
+        "Config" : "",
+        "DAGs" : "",
+        "device_list" : "",
+        "scope" : "",
+        "SUID" : 65,
+        "set" : "",
+        "predicate" : "",
+        "type" : "Device",
+        "selected" : true,
+        "has_nested_network" : false,
+        "name" : "h6",
+        "shared_name" : "h6",
+        "ip_address" : "10.6.0.1",
+        "nf_type" : "",
+        "mac_address" : "",
+        "state_to_event" : ""
+      }
+    }, {
+      "data" : {
+        "id" : "64",
+        "state_to_context" : "",
+        "Config" : "",
+        "DAGs" : "",
+        "device_list" : "",
+        "scope" : "",
+        "SUID" : 64,
+        "set" : "",
+        "predicate" : "",
+        "type" : "Device",
+        "selected" : true,
+        "has_nested_network" : false,
+        "name" : "h2",
+        "shared_name" : "h2",
+        "ip_address" : "10.2.0.1",
+        "nf_type" : "",
+        "mac_address" : "",
+        "state_to_event" : ""
+      }
+    }, {
+      "data" : {
+        "id" : "63",
+        "state_to_context" : "",
+        "Config" : "",
+        "DAGs" : "",
+        "device_list" : "",
+        "scope" : "",
+        "SUID" : 63,
+        "set" : "",
+        "predicate" : "",
+        "type" : "Device",
+        "selected" : true,
+        "has_nested_network" : false,
+        "name" : "h1",
+        "shared_name" : "h1",
+        "ip_address" : "10.1.0.1",
+        "nf_type" : "",
+        "mac_address" : "",
+        "state_to_event" : ""
+      }
+    }, {
+      "data" : {
+        "id" : "62",
+        "state_to_context" : "",
+        "Config" : "",
+        "DAGs" : "",
+        "device_list" : "",
+        "scope" : "",
+        "SUID" : 62,
+        "set" : "",
+        "predicate" : "",
+        "type" : "",
+        "selected" : true,
+        "has_nested_network" : false,
+        "name" : "h5",
+        "shared_name" : "Device",
+        "ip_address" : "10.5.0.1",
+        "nf_type" : "",
+        "mac_address" : "",
+        "state_to_event" : ""
+      }
+    } ],
+    "edges" : [ ]
+}

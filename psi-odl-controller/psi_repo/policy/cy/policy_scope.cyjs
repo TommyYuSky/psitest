@@ -1,0 +1,236 @@
+{
+    "nodes" : [ {
+      "data" : {
+        "id" : "489",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "Config" : "csd=[10.1.0.1 10.6.0.1], home=[10.0.0.0/8], ext=!home",
+        "device_list" : "",
+        "DAGs" : "",
+        "scope" : "",
+        "nf_type" : "",
+        "set" : "TrafficSpec",
+        "SUID" : 489,
+        "predicate" : "csd any ext any any",
+        "type" : "TrafficSpec",
+        "mac_address" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "TrafficSpec",
+        "state_to_event" : "",
+        "shared_name" : "Traffic"
+      }
+    }, {
+      "data" : {
+        "id" : "488",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "Config" : "",
+        "device_list" : "h1 h6",
+        "DAGs" : "",
+        "scope" : "",
+        "nf_type" : "",
+        "set" : "subject",
+        "SUID" : 488,
+        "predicate" : "",
+        "type" : "Scope",
+        "mac_address" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "csd",
+        "state_to_event" : "",
+        "shared_name" : "csd"
+      }
+    }, {
+      "data" : {
+        "id" : "487",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "Config" : "",
+        "device_list" : "",
+        "DAGs" : "dag1",
+        "scope" : "csd",
+        "nf_type" : "",
+        "set" : "fsm",
+        "SUID" : 487,
+        "predicate" : "",
+        "type" : "State",
+        "mac_address" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "normal",
+        "state_to_event" : "",
+        "shared_name" : "state0"
+      }
+    }, {
+      "data" : {
+        "id" : "486",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "Config" : "",
+        "device_list" : "",
+        "DAGs" : "dag1",
+        "scope" : "csd",
+        "nf_type" : "",
+        "set" : "fsm",
+        "SUID" : 486,
+        "predicate" : "",
+        "type" : "State",
+        "mac_address" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "suspicious",
+        "state_to_event" : "",
+        "shared_name" : "state1"
+      }
+    }, {
+      "data" : {
+        "id" : "485",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "Config" : "",
+        "device_list" : "h2",
+        "DAGs" : "",
+        "scope" : "",
+        "nf_type" : "",
+        "set" : "dag1",
+        "SUID" : 485,
+        "predicate" : "",
+        "type" : "NF",
+        "mac_address" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Egress",
+        "state_to_event" : "",
+        "shared_name" : "Egress"
+      }
+    }, {
+      "data" : {
+        "id" : "484",
+        "state_to_context" : "",
+        "ip_address" : "10.1.0.1",
+        "Config" : "",
+        "device_list" : "",
+        "DAGs" : "",
+        "scope" : "",
+        "nf_type" : "",
+        "set" : "dag1",
+        "SUID" : 484,
+        "predicate" : "",
+        "type" : "NF",
+        "mac_address" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Ingress",
+        "state_to_event" : "",
+        "shared_name" : "Ingress"
+      }
+    }, {
+      "data" : {
+        "id" : "483",
+        "state_to_context" : "count>3 count>3;others others;",
+        "ip_address" : "",
+        "Config" : "",
+        "device_list" : "",
+        "DAGs" : "",
+        "scope" : "csd",
+        "nf_type" : "counter",
+        "set" : "dag1",
+        "SUID" : 483,
+        "predicate" : "",
+        "type" : "NF",
+        "mac_address" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "csd:counter",
+        "state_to_event" : "count>3 event2;",
+        "shared_name" : "csd:counter"
+      }
+    }, {
+      "data" : {
+        "id" : "482",
+        "state_to_context" : "",
+        "ip_address" : "",
+        "Config" : "",
+        "device_list" : "",
+        "DAGs" : "",
+        "scope" : "",
+        "nf_type" : "",
+        "set" : "dag1",
+        "SUID" : 482,
+        "predicate" : "",
+        "type" : "NF",
+        "mac_address" : "",
+        "selected" : false,
+        "has_nested_network" : false,
+        "name" : "Drop",
+        "state_to_event" : "",
+        "shared_name" : "Drop"
+      }
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "493",
+        "source" : "487",
+        "target" : "486",
+        "selected" : false,
+        "set" : "fsm",
+        "SUID" : 493,
+        "name" : "state0 (interaction) state1",
+        "label" : "count>3",
+        "interaction" : "interaction",
+        "type" : "FSMEdge",
+        "event_context" : "event2",
+        "shared_interaction" : "interaction",
+        "shared_name" : "state0 (interaction) state1"
+      }
+    }, {
+      "data" : {
+        "id" : "492",
+        "source" : "484",
+        "target" : "483",
+        "selected" : false,
+        "set" : "dag1",
+        "SUID" : 492,
+        "name" : "h1 (interaction) csd:counter",
+        "label" : "all",
+        "interaction" : "interaction",
+        "type" : "Context",
+        "event_context" : "",
+        "shared_interaction" : "interaction",
+        "shared_name" : "h1 (interaction) csd:counter"
+      }
+    }, {
+      "data" : {
+        "id" : "491",
+        "source" : "483",
+        "target" : "485",
+        "selected" : false,
+        "set" : "dag1",
+        "SUID" : 491,
+        "name" : "csd:counter (interaction) ext",
+        "label" : "others",
+        "interaction" : "interaction",
+        "type" : "DAGEdge",
+        "event_context" : "others",
+        "shared_interaction" : "interaction",
+        "shared_name" : "csd:counter (interaction) servers"
+      }
+    }, {
+      "data" : {
+        "id" : "490",
+        "source" : "483",
+        "target" : "482",
+        "selected" : false,
+        "set" : "dag1",
+        "SUID" : 490,
+        "name" : "csd:counter (interaction) Drop",
+        "label" : "count>3",
+        "interaction" : "interaction",
+        "type" : "DAGEdge",
+        "event_context" : "count>3",
+        "shared_interaction" : "interaction",
+        "shared_name" : "csd:counter (interaction) Drop"
+      }
+    } ]
+}
